@@ -27,10 +27,10 @@
         android:ems="10"
         android:gravity="center"
         android:hint="@string/what_is_your_nickname"
-        android:inputType="none|textPersonName" />
+        android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/done_button"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +38,8 @@
         android:layout_marginTop="@dimen/layout_margin"
         android:fontFamily="@font/roboto"
         android:hapticFeedbackEnabled="true"
-        android:text="@string/done" />
+        android:text="@string/done"
+        android:onClick="clickHandlerFunction"/>
 
     <TextView
         android:id="@+id/nickname_text"
